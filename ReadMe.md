@@ -1,4 +1,4 @@
-# SocialMedia - Test-VuAnhKiet-935
+# SocialMedia
 ## Công Nghệ Sử Dụng
 - Next.js App Router `16.2.6`
 - TypeScript
