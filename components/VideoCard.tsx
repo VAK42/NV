@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { CircleUserRound, Heart, MessageCircle, Play, Share2, Volume2, VolumeX } from "lucide-react";
-import type { VideoPost } from "@/data/videos";
+import type { VideoPost } from "../data/videos";
 type VideoCardProps = {
   video: VideoPost;
   isLiked: boolean;

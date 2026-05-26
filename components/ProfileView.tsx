@@ -1,7 +1,7 @@
 "use client";
 import { useState, type FormEvent } from "react";
 import { CircleUserRound, Eye, Heart, Pencil, X } from "lucide-react";
-import type { VideoPost } from "@/data/videos";
+import type { VideoPost } from "../data/videos";
 export type ProfileData = {
   displayName: string;
   username: string;

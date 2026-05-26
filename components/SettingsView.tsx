@@ -1,5 +1,5 @@
 import { Eye, Heart, MessageCircle, MoonStar, Share2, Sun, type LucideIcon } from "lucide-react";
-import type { VideoPost } from "@/data/videos";
+import type { VideoPost } from "../data/videos";
 type SettingsViewProps = {
   isDark: boolean;
   onThemeChange: (isDark: boolean) => void;

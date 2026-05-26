@@ -1,13 +1,13 @@
 "use client";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Bell, CircleUserRound, Search, X } from "lucide-react";
-import type { VideoComment, VideoPost } from "@/data/videos";
-import CommentsPanel from "@/components/CommentsPanel";
-import Navigation, { type AppView } from "@/components/Navigation";
-import NotificationsPanel, { type SessionNotification } from "@/components/NotificationsPanel";
-import ProfileView, { type ProfileData } from "@/components/ProfileView";
-import SettingsView from "@/components/SettingsView";
-import VideoCard from "@/components/VideoCard";
+import type { VideoComment, VideoPost } from "../data/videos";
+import CommentsPanel from "./CommentsPanel";
+import Navigation, { type AppView } from "./Navigation";
+import NotificationsPanel, { type SessionNotification } from "./NotificationsPanel";
+import ProfileView, { type ProfileData } from "./ProfileView";
+import SettingsView from "./SettingsView";
+import VideoCard from "./VideoCard";
 type VideoFeedProps = {
   videos: VideoPost[];
 };

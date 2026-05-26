@@ -1,7 +1,7 @@
 "use client";
 import { useState, type FormEvent } from "react";
 import { CircleUserRound, SendHorizontal, X } from "lucide-react";
-import type { VideoComment, VideoPost } from "@/data/videos";
+import type { VideoComment, VideoPost } from "../data/videos";
 type CommentsPanelProps = {
   isDark: boolean;
   username: string;
