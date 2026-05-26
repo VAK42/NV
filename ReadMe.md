@@ -1,16 +1,12 @@
-# SocialMedia
 ## Công Nghệ Sử Dụng
-- Next.js App Router `16.2.6`
+- Next.js (App Router)
 - TypeScript
-- Tailwind CSS `4`
-- Lucide React cho toàn bộ biểu tượng
 ## Trạng Thái Hoàn Thành Yêu Cầu
 ### Chức Năng Bắt Buộc
 - Giao diện video dọc: Mỗi video chiếm khu vực hiển thị feed, trên desktop video được căn giữa theo tỷ lệ dọc `9:16`.
 - Cuộn từng video: Feed dùng CSS Scroll Snap với `snap-y`, `snap-mandatory` & `snap-start`.
 - Video card: Hiển thị video, tên tác giả, mô tả, nút Like, Comments & Share ở bên phải.
 - Play/Pause bằng click: Người dùng click trực tiếp vào video để phát hoặc tạm dừng.
-- Mock data: Có `3` video tĩnh, mỗi video bao gồm `id`, `videoUrl`, `authorName`, `description`, `likesCount` & dữ liệu phụ trợ.
 ### Chức Năng Điểm Cộng
 - Auto Play/Pause khi cuộn bằng `IntersectionObserver`.
 - Nút Like đổi màu đỏ & tăng/giảm số lượng Like.
